@@ -46,10 +46,10 @@ Icon ionic-ios-arrow-down
 -W: 624 \
 H: 64
 
-##### Paper
+##### Examination Paper
 -Radius: 42 \
 -W: 661 \
--H: 396 \ 
+-H: 396 \
 -Font size: 31 \
 -Year box: W:158; H:158;
 
