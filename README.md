@@ -1,5 +1,5 @@
 # Bloom
-This is a website that will have past examinations questions and answers
+The is website let you find, view and upload examination questions and answers to be accessed by students.
 
 ## We :heart: Contributors Like You!
 
