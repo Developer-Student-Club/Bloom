@@ -1,5 +1,5 @@
 # Bloom UI :blush:
-[View UI Design](https://still-darkness-7807.animaapp.io/?show_restart=1)
+[View UI Design](https://empty-leaf-6737.animaapp.io/landing-page)
 
 ## Design Specs
 ### Body
