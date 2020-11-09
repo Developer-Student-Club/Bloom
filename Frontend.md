@@ -5,6 +5,7 @@
 ### Body
 
 ##### Fonts: [Montserrat](https://fonts.google.com/specimen/Montserrat#standard-styles)
+##### [Resources](https://github.com/Developer-Student-Club/Bloom/tree/main/Resources)
 
 ##### Colours:
 1. #000000
