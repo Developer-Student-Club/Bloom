@@ -1,0 +1,12 @@
+:root{
+    --color1: #000000;
+    --color2: #707070;
+    --color3: #63f4ff;
+    --color4: #030303;
+    --color5: #fffcfc;
+    --color6: #13233d;
+    --color7: #ffffff;
+}
+button{
+    border-radius: 23;
+}
