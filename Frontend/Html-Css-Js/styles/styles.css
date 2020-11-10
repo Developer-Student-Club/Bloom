@@ -14,7 +14,7 @@
     font-family: 'Montserrat', sans-serif;
 }
 button{
-    border-radius: 18px;
+    border-radius: 23px;
     outline: none;
     border: none;
 }
@@ -69,19 +69,19 @@ nav ul li:hover{
 }
 .headline h1{
     color: white;
-    font-size: 55px;
+    font-size: 75px;
     font-weight: bolder;
 }
 
 .alert p{
     margin-top: 25px;
     color: white;
-    font-size: 35px;
+    font-size: 45px;
 }
 
 .get-started{
-    padding: 15px;
-    border-radius: 18px;
+    padding: 25px;
+    border-radius: 35px;
     margin-top: 30px;
     background-color: var(--color3);
 }
@@ -103,7 +103,7 @@ nav ul li:hover{
 }
 
 .contrib p{
-    margin-top: 200px;
+    margin-top: 175px;
     color: white;
     font-weight: bold;
 }
