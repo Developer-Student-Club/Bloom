@@ -14,12 +14,12 @@
     font-family: 'Montserrat', sans-serif;
 }
 button{
-    border-radius: 23px;
+    border-radius: 18px;
     outline: none;
     border: none;
 }
 nav{
-    width: 100vw;
+    width: 100%;
     background-color: var(--color6);
     color: white;
     display: flex;
@@ -48,10 +48,62 @@ ul li{
     align-items: center;
 }
 li button{
-    padding: 5px 10px;
+    padding:  10px 10px;
     font-weight: bolder;
     background-color: var(--color3);
 }
 nav ul li:hover{
     background-color: #3b475c;
+}
+.main{
+    background: url(../images/front_img.png);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top left;
+}
+.headline h1{
+    color: white;
+    font-size: 55px;
+    font-weight: bolder;
+}
+
+.alert p{
+    margin-top: 25px;
+    color: white;
+    font-size: 35px;
+}
+
+.get-started{
+    padding: 15px;
+    border-radius: 18px;
+    margin-top: 30px;
+    background-color: var(--color3);
+}
+
+.get-started:hover{
+    background-color: #13233d;
+    transition: .5s;
+}
+
+.get-started a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.get-started:hover a{
+    color: white;
+    transition: .5s;
+}
+
+.contrib p{
+    margin-top: 200px;
+    color: white;
+    font-weight: bold;
 }
