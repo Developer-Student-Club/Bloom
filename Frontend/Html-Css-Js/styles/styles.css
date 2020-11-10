@@ -52,8 +52,8 @@ ul li{
 }
 li button{
     padding:  10px 10px;
-    width: 160px;
-    height: 55px;
+    width: 130px;
+    height: 45px;
     border-radius: 15px;
     font-weight: bold;
     background-color: var(--color3);
@@ -86,8 +86,8 @@ nav ul li:hover{
 }
 
 .get-started{
-    width: 380px;
-    height: 88px;
+    width: 280px;
+    height: 68px;
     text-align: center;
     padding: 15px;
     border-radius: 23px;
@@ -103,7 +103,7 @@ nav ul li:hover{
 .get-started a{
     color: black;
     font-weight: bold;
-    font-size: 44px;
+    font-size: 34px;
     text-decoration: none;
 }
 
@@ -113,12 +113,15 @@ nav ul li:hover{
 }
 .get-started .fa-arrow-right{
     cursor: pointer;
+    position: relative;
+    bottom: 4px;
 }
 .get-started .fa-arrow-right:hover{
     transform: translateX(20%);
+    color: white;
 }
 .contrib p{
     margin-top: 60px;
     color: white;
-    font-weight: bold;
+    font-weight: light;
 }
