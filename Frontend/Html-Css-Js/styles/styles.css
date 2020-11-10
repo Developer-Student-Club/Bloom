@@ -35,7 +35,8 @@ nav{
     padding: 0.2rem;
 }
 .logo img{
-    width: 70px;
+    margin-top: 5px;
+    width: 90px;
 }
 ul{
     margin-left: auto;
@@ -110,7 +111,12 @@ nav ul li:hover{
     color: white;
     transition: .5s;
 }
-
+.get-started .fa-arrow-right{
+    cursor: pointer;
+}
+.get-started .fa-arrow-right:hover{
+    transform: translateX(20%);
+}
 .contrib p{
     margin-top: 60px;
     color: white;
