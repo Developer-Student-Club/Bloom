@@ -45,17 +45,48 @@ nav{
     margin-right: 50px;
 }
 .manage{
-    font-size: 35px;
+    font-size: 29px;
 }
 .manage:hover{
     cursor: pointer;
+}
+.side-links{
+    display: flex;
+    left: 0;
+    position: absolute;
+    top: 90px;
+    left: -755px;
+    background-color: var(--color6);
+    z-index: -1;
+    width: 100%;
+    border-top: 2px solid gray;
+    justify-content: space-around;
+}
+.show{
+    left: 0;
+    z-index: 1;
+    transition: left .5s;
+}
+.change::before{
+    content: "=";
+    align-self: center;
+    justify-self: center;
+    font-size: 45px;
+}
+.side-links > li:hover{
+    background-color: var(--color2);
+}
+a{
+    text-decoration: none;
+    color: white;
 }
 ul{
     margin-left: auto;
     list-style: none;
     display: flex;
 }
-ul li{
+li{
+    width: 100%;
     font-weight: bold;
     padding: 1rem 1.8rem;
     display: flex;
@@ -188,8 +219,23 @@ section{
     }
 }
 
+@media screen and (max-width: 560px){
+    .side-links{
+        display: block;
+    }
+}
+
+@media screen and (min-width: 550px){
+    .side-links{
+        display: flex;
+    }
+}
+
 @media screen and (min-width: 970px){
     .manage{
+        display: none;
+    }
+    .side-links{
         display: none;
     }
 }
