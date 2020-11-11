@@ -154,6 +154,24 @@ section{
         display: none;
     }
     .headline h1{
+        font-size: 52px;
+    }
+    
+    .alert p{
+        font-size: 39px;
+    }
+    .get-started{
+        width: 230px;
+        height: 65px;
+        border-radius: 30px;
+    }
+    .get-started a{
+        font-size: 29px;
+    }
+}
+
+@media screen and (max-width: 770px){
+    .headline h1{
         font-size: 38px;
     }
     
