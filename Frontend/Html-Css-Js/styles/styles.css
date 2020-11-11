@@ -59,10 +59,20 @@ li button{
     background-color: var(--color3);
 }
 nav ul li:hover{
-    background-color: #3b475c;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+nav ul li button:hover{
+    color: #fffcfc;
+}
+
+section{
+    background: black;
+    overflow: hidden;
 }
 .main{
-    background: url(../images/front_img.png);
+    background:linear-gradient(rgb(15, 15, 15), rgba(10, 10, 10, 0.5)), url(../images/front_img.png);
     height: 86vh;
     width: 100%;
     display: flex;
