@@ -38,12 +38,55 @@ nav{
     margin-top: 5px;
     width: 90px;
 }
+.bars-to-side-menu{
+    margin-left: auto;
+    justify-self: center;
+    align-self: center;
+    margin-right: 50px;
+}
+.manage{
+    font-size: 29px;
+}
+.manage:hover{
+    cursor: pointer;
+}
+.side-links{
+    display: flex;
+    left: 0;
+    position: absolute;
+    top: 90px;
+    left: -755px;
+    background-color: var(--color6);
+    z-index: -1;
+    width: 100%;
+    border-top: 2px solid gray;
+    justify-content: space-around;
+}
+.show{
+    left: 0;
+    z-index: 1;
+    transition: left .5s;
+}
+.change::before{
+    content: "=";
+    align-self: center;
+    justify-self: center;
+    font-size: 45px;
+}
+.side-links > li:hover{
+    background-color: var(--color2);
+}
+a{
+    text-decoration: none;
+    color: white;
+}
 ul{
     margin-left: auto;
     list-style: none;
     display: flex;
 }
-ul li{
+li{
+    width: 100%;
     font-weight: bold;
     padding: 1rem 1.8rem;
     display: flex;
@@ -65,6 +108,7 @@ nav ul li:hover{
 
 nav ul li button:hover{
     color: #fffcfc;
+    cursor: pointer;
 }
 
 section{
@@ -100,7 +144,7 @@ section{
     height: 68px;
     text-align: center;
     padding: 15px;
-    border-radius: 23px;
+    border-radius: 32px;
     margin-top: 30px;
     background-color: var(--color3);
 }
@@ -134,4 +178,64 @@ section{
     margin-top: 60px;
     color: white;
     font-weight: light;
+}
+
+@media screen and (max-width: 970px){
+    .nav-links{
+        display: none;
+    }
+    .headline h1{
+        font-size: 52px;
+    }
+    
+    .alert p{
+        font-size: 39px;
+    }
+    .get-started{
+        width: 230px;
+        height: 65px;
+        border-radius: 30px;
+    }
+    .get-started a{
+        font-size: 29px;
+    }
+}
+
+@media screen and (max-width: 770px){
+    .headline h1{
+        font-size: 38px;
+    }
+    
+    .alert p{
+        font-size: 27px;
+    }
+    .get-started{
+        width: 230px;
+        height: 65px;
+        border-radius: 30px;
+    }
+    .get-started a{
+        font-size: 27px;
+    }
+}
+
+@media screen and (max-width: 560px){
+    .side-links{
+        display: block;
+    }
+}
+
+@media screen and (min-width: 550px){
+    .side-links{
+        display: flex;
+    }
+}
+
+@media screen and (min-width: 970px){
+    .manage{
+        display: none;
+    }
+    .side-links{
+        display: none;
+    }
 }
