@@ -68,13 +68,16 @@ nav{
     transition: left .5s;
 }
 .change::before{
-    content: "=";
+    content: "\f00d";
     align-self: center;
     justify-self: center;
-    font-size: 45px;
+    font-size: 28px;
 }
 .side-links > li:hover{
     background-color: var(--color2);
+}
+.side-links > li:hover a{
+    transform: scale(1.1);
 }
 a{
     text-decoration: none;
@@ -110,7 +113,12 @@ nav ul li button:hover{
     color: #fffcfc;
     cursor: pointer;
 }
-
+.fa-angle-down{
+    cursor: pointer;
+    position: relative;
+    left: 5px;
+    top: 3px;
+}
 section{
     background: black;
     overflow: hidden;
