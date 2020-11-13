@@ -1,6 +1,8 @@
 # Bloom UI :blush:
 [View UI Design](https://empty-leaf-6737.animaapp.io/landing-page)
 
+### Bootstrap ui framework should be used!
+
 ## Design Specs
 ### Body
 
@@ -53,6 +55,8 @@ H: 64
 -H: 396 \
 -Font size: 31 \
 -Year box: W:158; H:158;
+
+
 
 
 N.B: UI should be created in a folder named Frontend
