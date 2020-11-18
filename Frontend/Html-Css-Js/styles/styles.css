@@ -104,20 +104,23 @@ li button{
     font-weight: bold;
     background-color: var(--color3);
 }
-nav ul li:hover{
+nav ul li:hover a{
     transform: scale(1.1);
-    cursor: pointer;
 }
 
 nav ul li button:hover{
     color: #fffcfc;
     cursor: pointer;
+    transition: .3s;
 }
 .fa-angle-down{
     cursor: pointer;
     position: relative;
     left: 5px;
     top: 3px;
+}
+.fa-angle-down:hover{
+    transform: scale(1.1);
 }
 section{
     background: black;
