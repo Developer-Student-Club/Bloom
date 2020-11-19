@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exams-Section</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Montserrat', sans-serif;
+        }
+        .navbar{
+            padding: 0;
+            height: 100vh;
+            left: 0;
+            z-index: 1;
+        }
+        .nav{
+            height: 100vh;
+            width: 399px;
+            display: flex;
+            flex-direction: column;
+            background-color: rgb(12, 5, 56);
+            padding: 0;
+        }
+        .sidebar-brand{
+            display: flex;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .logo img{
+            width: 100px;
+        }
+        .logo{
+            display: flex;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            color: white;
+        }
+        .sidebar-brand a:hover{
+            text-decoration: none;
+            color: white;
+        }
+        .links{
+            display: -ms-flexbox;
+            display: flex;
+            display: -webkit-flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 100%;
+        }
+        .links h5{
+            font-weight: bold;
+            color: white;
+            text-align: center;
+            justify-self: center;
+        }
+        span{
+            padding-left: 35px;
+        }
+        .links li{
+            padding: 25px;
+            text-align: center;
+            border-bottom: 1px solid gray;
+        }
+        .active{
+            background-color: aqua;
+        }
+        .links li a{
+            font-weight: bold;
+            color: white;
+            font-size: 19px;
+        }
+        .links li a:hover{
+            text-decoration: none;
+        }
+        .links li:hover{
+            background-color: aqua;
+        }
+        .links li:hover a,
+        .links h5{
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar" id="nav2" role="navigation">
+        <div class="nav">
+            <div class="sidebar-header">
+                <div class="sidebar-brand">
+                    <a class="logo" href="">
+                        <img src="images/Bloom.png" alt="logo">
+                        <div class="text">Bloom</div>
+                    </a>
+                    <i style="color: white; cursor: pointer;" id="click2" class="fas fa-arrow-left fa-lg"></i>
+                </div>
+            </div>
+            <div class="links">
+                <li class="active"><h5><i class="fas fa-bars"></i> <span>Examinations</span></h5></li>
+                <li><a href="">Entrance Exams</a></li>
+                <li><a href="">Academic Exams</a></li>
+                <li><a href="">Preperatory Exams</a></li>
+            </div>
+        </div>
+    </nav>
+</body>
+</html>
