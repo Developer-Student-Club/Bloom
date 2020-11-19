@@ -68,13 +68,16 @@ nav{
     transition: left .5s;
 }
 .change::before{
-    content: "=";
+    content: "\f00d";
     align-self: center;
     justify-self: center;
-    font-size: 45px;
+    font-size: 28px;
 }
 .side-links > li:hover{
     background-color: var(--color2);
+}
+.side-links > li:hover a{
+    transform: scale(1.1);
 }
 a{
     text-decoration: none;
@@ -101,16 +104,24 @@ li button{
     font-weight: bold;
     background-color: var(--color3);
 }
-nav ul li:hover{
+nav ul li:hover a{
     transform: scale(1.1);
-    cursor: pointer;
 }
 
 nav ul li button:hover{
     color: #fffcfc;
     cursor: pointer;
+    transition: .3s;
 }
-
+.fa-angle-down{
+    cursor: pointer;
+    position: relative;
+    left: 5px;
+    top: 3px;
+}
+.fa-angle-down:hover{
+    transform: scale(1.1);
+}
 section{
     background: black;
     overflow: hidden;
