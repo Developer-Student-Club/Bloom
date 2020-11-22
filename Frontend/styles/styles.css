@@ -128,15 +128,15 @@ section{
 }
 .main{
     background:linear-gradient(rgb(15, 15, 15), rgba(10, 10, 10, 0.5)), url(../images/front_img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top left;
     height: 86vh;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: top left;
 }
 .headline h1{
     color: white;
@@ -214,7 +214,7 @@ section{
 
 @media screen and (max-width: 770px){
     .headline h1{
-        font-size: 38px;
+        font-size: 28px;
     }
     
     .alert p{
