@@ -103,3 +103,11 @@ span{
     transform: translate(-50%, -50%);
     text-align: center;
 }
+.papers-main-category > .row > .col:hover{
+    transform: scale(1.1);
+    transition: .3s;
+    cursor: pointer;
+}
+.papers-main-category > .row > .col > .notion > h3{
+    font-weight: bold;
+}
