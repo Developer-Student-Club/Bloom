@@ -89,9 +89,8 @@ margin-bottom: 40px;
 position: relative;
 z-index: 0;
 }
-.container-fluid .form-inline{
-  position: absolute;
-  z-index: 1;
+.container-fluid .form-group{
+  width: 300px;
 }
 .btn{
     border-radius: 15px;
