@@ -9,6 +9,12 @@
   border-bottom: aliceblue 3px solid;
   text-align: center;
   padding-right: 100px;
+  
+ }
+ .list-group{
+     color:  aliceblue;
+     text-align: center;
+     margin-top: 20px;
  }
 .logo img{
 width: 100px;
@@ -24,11 +30,14 @@ height: 60px;
   transition: margin .25s ease-out;
 }
 .header{
-     border-bottom: rgb(61, 112, 156) 3px solid;
      height: 90px;
+     text-align: center;
+     padding-top: 20px;
 }
 .btn{
+    border-radius: 15px;
     width: 250px;
+    background-color: #464CFF;
 }
 
 #sidebar-wrapper .sidebar-heading {
@@ -65,5 +74,26 @@ margin-bottom: 40px;
     min-width: 0;
     width: 100%;
   }
-
 }
+.list-group ul{
+    padding-top: 20px;
+}
+.list-group ul li a:hover{
+    color: black;
+    background-color: #63F4FF;
+}
+#username i{
+    padding-left: 400px;
+    font-size: x-large;
+}
+#username b{
+    font-size: small;
+}
+.list-group ul li a{
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px 30px;
+    display: block;
+    color:  aliceblue;
+}
+
