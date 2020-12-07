@@ -4,13 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="styles/bootstrap/dist/css/bootstrap.css">
-    <link rel="stylesheet" href="styles/subjects.css">
+    <link rel="stylesheet" href="styles/welcome.css">
     <link rel="stylesheet" href="styles/fontawesome-free-5.15.1-web/css/fontawesome.css">
     <link rel="stylesheet" href="styles/fontawesome-free-5.15.1-web/css/solid.css">
     <link rel="stylesheet" href="styles/fontawesome-free-5.15.1-web/css/brands.css">
     <link rel="icon" href="images/Bloom.png" type="image/png" sizes="30x30">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome</title>
+    <title>Create Paper</title>
 </head>
 
 <body>
@@ -18,10 +18,16 @@
 
         <div class="border-right" id="sidebar-wrapper">
             <div class="logo">
-                <img src="images/Bloom.png" alt="logo"><br>
-                Bloom
+                <div id="logo">
+                    <img src="images/Bloom.png" alt="logo"><br>
+                    <span>Bloom</span>
+                </div>
+                <div id="ico">
+                    <img src="images/ico_arrow.png" alt="">
+                </div>
             </div>
             <div class="list-group">
+
                 <h4><b>Your Papers</b></h4>
                 <ul class="list-unstyled components mb-5">
                     <li>
@@ -46,9 +52,13 @@
                 </div>
 
                 <div class="container-fluid">
-                    <img src="./images/welcome.png" alt="">
-                    <p><b>you don't have any paper yet</b></p><br><br>
-                    <button class="btn btn-primary">Create Paper</button>
+                    <img src="./images/subjects.png" alt="">
+                    <form class="form-inline">
+                        <div class="form-group">
+                            <label for="">Examination</label>
+                            <input type="text" name="" id="" class="form-control">
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
