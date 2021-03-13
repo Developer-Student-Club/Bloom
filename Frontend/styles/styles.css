@@ -1,0 +1,252 @@
+:root{
+    --color1: #000000;
+    --color2: #707070;
+    --color3: #63f4ff;
+    --color4: #030303;
+    --color5: #fffcfc;
+    --color6: #13233d;
+    --color7: #ffffff;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+}
+button{
+    border-radius: 23px;
+    outline: none;
+    border: none;
+}
+nav{
+    width: 100%;
+    height: 90px;
+    background-color: var(--color6);
+    color: white;
+    display: flex;
+}
+.logo{
+    font-weight: bolder;
+    font-size: 16px;
+    margin-left: 4rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 0.2rem;
+}
+.logo img{
+    margin-top: 5px;
+    width: 90px;
+}
+.bars-to-side-menu{
+    margin-left: auto;
+    justify-self: center;
+    align-self: center;
+    margin-right: 50px;
+}
+.manage{
+    font-size: 29px;
+}
+.manage:hover{
+    cursor: pointer;
+}
+.side-links{
+    display: flex;
+    left: 0;
+    position: absolute;
+    top: 90px;
+    left: -755px;
+    background-color: var(--color6);
+    z-index: -1;
+    width: 100%;
+    border-top: 2px solid gray;
+    justify-content: space-around;
+}
+.show{
+    left: 0;
+    z-index: 1;
+    transition: left .5s;
+}
+.change::before{
+    content: "\f00d";
+    align-self: center;
+    justify-self: center;
+    font-size: 28px;
+}
+.side-links > li:hover{
+    background-color: var(--color2);
+}
+.side-links > li:hover a{
+    transform: scale(1.1);
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+ul{
+    margin-left: auto;
+    list-style: none;
+    display: flex;
+}
+li{
+    width: 100%;
+    font-weight: bold;
+    padding: 1rem 1.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+li button{
+    padding:  10px 10px;
+    width: 130px;
+    height: 45px;
+    border-radius: 15px;
+    font-weight: bold;
+    background-color: var(--color3);
+}
+nav ul li:hover a{
+    transform: scale(1.1);
+}
+
+nav ul li button:hover{
+    color: #fffcfc;
+    cursor: pointer;
+    transition: .3s;
+}
+.fa-angle-down{
+    cursor: pointer;
+    position: relative;
+    left: 5px;
+    top: 3px;
+}
+.fa-angle-down:hover{
+    transform: scale(1.1);
+}
+section{
+    background: black;
+    overflow: hidden;
+}
+.main{
+    background:linear-gradient(rgb(15, 15, 15), rgba(10, 10, 10, 0.5)), url(../images/front_img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top left;
+    height: 86vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.headline h1{
+    color: white;
+    font-size: 75px;
+    font-weight: bolder;
+}
+
+.alert p{
+    margin-top: 25px;
+    color: white;
+    font-size: 45px;
+}
+
+.get-started{
+    width: 280px;
+    height: 68px;
+    text-align: center;
+    padding: 15px;
+    border-radius: 32px;
+    margin-top: 30px;
+    background-color: var(--color3);
+}
+
+.get-started:hover{
+    background-color: #13233d;
+    transition: .5s;
+}
+
+.get-started a{
+    color: black;
+    font-weight: bold;
+    font-size: 34px;
+    text-decoration: none;
+}
+
+.get-started:hover a{
+    color: white;
+    transition: .5s;
+}
+.get-started .fa-arrow-right{
+    cursor: pointer;
+    position: relative;
+    bottom: 4px;
+}
+.get-started .fa-arrow-right:hover{
+    transform: translateX(20%);
+    color: white;
+}
+.contrib p{
+    margin-top: 60px;
+    color: white;
+    font-weight: light;
+}
+
+@media screen and (max-width: 970px){
+    .nav-links{
+        display: none;
+    }
+    .headline h1{
+        font-size: 52px;
+    }
+    
+    .alert p{
+        font-size: 39px;
+    }
+    .get-started{
+        width: 230px;
+        height: 65px;
+        border-radius: 30px;
+    }
+    .get-started a{
+        font-size: 29px;
+    }
+}
+
+@media screen and (max-width: 770px){
+    .headline h1{
+        font-size: 28px;
+    }
+    
+    .alert p{
+        font-size: 27px;
+    }
+    .get-started{
+        width: 230px;
+        height: 65px;
+        border-radius: 30px;
+    }
+    .get-started a{
+        font-size: 27px;
+    }
+}
+
+@media screen and (max-width: 560px){
+    .side-links{
+        display: block;
+    }
+}
+
+@media screen and (min-width: 550px){
+    .side-links{
+        display: flex;
+    }
+}
+
+@media screen and (min-width: 970px){
+    .manage{
+        display: none;
+    }
+    .side-links{
+        display: none;
+    }
+}

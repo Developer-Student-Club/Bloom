@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.container-fluid{
+    padding: 0;
+    background: lightgrey;
+    display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+}
+.navbar{
+    padding: 0;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+.nav{
+    height: 100vh;
+    width: 310px;
+    display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    flex-direction: column;
+    background-color: rgb(12, 5, 56);
+    padding: 0;
+}
+.sidebar-brand{
+    display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo img{
+    width: 100px;
+}
+.logo{
+    display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+.sidebar-brand a:hover{
+    text-decoration: none;
+    color: white;
+}
+.links{
+    display: -ms-flexbox;
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+.links h5{
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    justify-self: center;
+}
+span{
+    padding-left: 35px;
+}
+.links li{
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid gray;
+}
+.active{
+    background-color: aqua;
+}
+.links li a{
+    font-weight: bold;
+    color: white;
+    font-size: 19px;
+}
+.links li a:hover{
+    text-decoration: none;
+}
+.links li:hover{
+    background-color: aqua;
+}
+.links li:hover a,
+.links h5{
+    color: black;
+}
+.papers-main-category{
+   grid-gap: 55px;
+   padding-bottom: 25px;
+}
+.papers-main-category > .row > .col > .notion{
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.papers-main-category > .row > .col:hover{
+    transform: scale(1.05);
+    transition: .3s;
+    cursor: pointer;
+}
+.papers-main-category > .row > .col > .notion > h3{
+    font-weight: bold;
+}

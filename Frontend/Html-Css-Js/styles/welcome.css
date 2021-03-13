@@ -1,0 +1,121 @@
+#wrapper {
+    
+    overflow-x: hidden;
+ }
+ .logo{
+  color: aliceblue;
+  height: 90px;
+  display: flex;
+  text-align: center;
+ }
+ .list-group{
+     color:  aliceblue;
+     text-align: center;
+     border-top: aliceblue 2px solid;
+ }
+ #sidebar-wrapper .sidebar-heading {
+  padding: 0.875rem 1.25rem;
+  font-size: 1.2rem;
+}
+
+#sidebar-wrapper .list-group {
+  width: 300px;
+}
+.logo  img{
+width: 100px;
+height: 60px;
+}
+.logo #logo span{
+  font-size: 16px;
+  font-family: cursive;
+}
+.logo #logo{
+  width: 200px;
+}
+.logo #ico{
+  padding-top: 20px;
+  padding-left: 40px;
+  width: 100px;
+}
+.logo  #ico img{
+width: 15px;
+height: 15px;
+}
+#sidebar-wrapper {
+  background-color: #13233D;
+  min-height: 100vh;
+  margin-left: -15rem;
+  -webkit-transition: margin .25s ease-out;
+  -moz-transition: margin .25s ease-out;
+  -o-transition: margin .25s ease-out;
+  transition: margin .25s ease-out;
+}
+.header{
+     height: 90px;
+     text-align: center;
+     padding-top: 20px;
+}
+.list-group ul{
+    padding-top: 20px;
+}
+.list-group ul li a{
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px 30px;
+    display: block;
+    color:  aliceblue;
+}
+.list-group ul li a:hover{
+    color: black;
+    background-color: #63F4FF;
+    text-decoration: none;
+}
+
+
+#page-content-wrapper {
+  min-width: 100vw;
+  background:#DFDFDF;
+}
+
+.container-fluid{
+    text-align: center;
+    font-size: small;
+}
+.container-fluid img{
+width: 555px;
+height: 260px;
+margin-top: 6%;
+margin-bottom: 40px;
+position: relative;
+z-index: 0;
+}
+.container-fluid .form-group{
+  width: 300px;
+}
+.btn{
+    border-radius: 15px;
+    width: 250px;
+    background-color: #464CFF;
+    color: black;
+}
+
+@media (min-width: 768px) {
+  #sidebar-wrapper {
+    margin-left: 0;
+  }
+
+  #page-content-wrapper {
+    min-width: 0;
+    width: 100%;
+  }
+}
+
+#username i{
+    padding-left: 400px;
+    font-size: x-large;
+}
+#username b{
+    font-size: small;
+}
+
+
